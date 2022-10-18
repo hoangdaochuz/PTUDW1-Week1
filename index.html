@@ -4,16 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20127522_20127551 Group</title>
+    <title>Information of Group</title>
+
+    <style>
+        .general-info img {
+            width: 400px;
+            height: 400px;
+            margin-left: 150px;
+            border: 1px solid #ccc;
+        }
+
+        .general-info {
+            width: 700px;
+            height: 700px;
+            margin: 0 auto;
+        }
+
+        .general-info h2,
+        .general-info p {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Welcome to 20127522_20127551 Group</h1>
-    <p style="text-align: center;">Click on each member to see detail about them</p>
-    <img style="padding-left: 30%; width: 30%; padding-right: 30%;" srcset="./images/image_group.jpg 2x" alt="Hình ảnh của nhóm 20127522_20127551" usemap="#info-group"/>
+    <div class="general-info">
+        <h2 class="info-heading">Thông tin nhóm Khải - Lộc</h2>
+        <p>1. Nguyễn Hữu Lộc - 20127551</p>
+        <p>2. Nguyễn Hữu Khải - 20127522</p>
+        <img src="./images/image_group.jpg" alt="Group image" usemap = "#detail-info">
+    </div>
 
-    <map name = "info-group">
-        <area shape="rect" coords="0 0 670 613" alt="20127551" href="./members/20127551/20127551.html">
-        <area shape="rect" coords="672 0 1172 613" alt="20127522" href="./members/20127522/20127522.html">
+    <map name="detail-info">
+        <area shape="rect" coords="83,38,138,112" alt="20127551" href="./members/20127551/20127551.html">
+        <area shape="rect" coords="242,37,308,106" alt="20127522" href="./members/20127522/20127522.html">
     </map>
 </body>
 </html>
