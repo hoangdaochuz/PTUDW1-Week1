@@ -1,0 +1,50 @@
+.general-info img {
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+    border: 1px solid #ccc;
+}
+
+.general-info {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.general-info h2,
+.general-info p {
+    text-align: center;
+}
+/* css of memeber */
+.user-img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 50px;
+    
+}
+
+.detail-info-member {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.member-heading, .member-info {
+    text-align: center;
+}
+
+.back-btn {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #000;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.back-btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
